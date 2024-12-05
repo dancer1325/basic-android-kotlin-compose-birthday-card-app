@@ -1,19 +1,8 @@
 Happy Birthday app - Solution Code
 ==============================================
 
-Solution code for the Android Basics with Compose: Add images to your Android app codelab.
+* [Codelab](https://developer.android.com/codelabs/basic-android-kotlin-compose-text-composables) 
 
-Introduction
-------------
-In this codelab, you will learn how to add images to your app using an Image Composable.
-
-Pre-requisites
---------------
-
-You need to know:
-- How to create and run a new app in Android Studio.
-
-Getting Started
----------------
-
-1. Download and run the app.
+* goal
+  * how to 
+    * add images | your app -- via -- Image Composable
