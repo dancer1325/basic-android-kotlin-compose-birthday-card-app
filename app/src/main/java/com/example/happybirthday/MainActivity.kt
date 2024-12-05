@@ -50,7 +50,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     GreetingImage(
-                        stringResource(R.string.happy_birthday_text),
+                        stringResource(R.string.happy_birthday_text),   // extract as resources to make string language-related
                         stringResource(R.string.signature_text)
                     )
                 }
@@ -63,7 +63,7 @@ class MainActivity : ComponentActivity() {
 fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
     // Create a column so that texts don't overlap
     Column(
-        verticalArrangement = Arrangement.Center,
+        verticalArrangement = Arrangement.Center,   // define the positioning of the children | Column
         modifier = modifier
     ) {
         Text(
@@ -90,8 +90,8 @@ fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier) 
     // Create a box to overlap image and texts
     Box(modifier) {
         Image(
-            painter = painterResource(id = R.drawable.androidparty),
-            contentDescription = null,
+            painter = painterResource(id = R.drawable.androidparty),      // R class -- to access -- resources
+            contentDescription = null,      // it's a background, which does NOT add so MANY value about accessibility issues
             contentScale = ContentScale.Crop,
             alpha = 0.5F
         )

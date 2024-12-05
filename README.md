@@ -6,3 +6,4 @@ Happy Birthday app - Solution Code
 * goal
   * how to 
     * add images | your app -- via -- Image Composable
+    * `R` class
